@@ -1,0 +1,25 @@
+<html>
+   <head>
+      <title>Image Saver Options</title>
+      <script src="options.js"></script> 
+   </head>
+   <body>
+      <h1>Image Saver Options</h1>
+      <p> Please enter your OwnCloud instance root, username, password, and folder to save images to. </p>
+      <form id="options-form"> 
+        <label for="instance-root">Instance Root:</label> 
+        <input type="text" id="instance-root" name="instance-root" placeholder="https://mycloud.com"/> 
+
+        <label for="username">Username:</label> 
+        <input type="text" id="username" name="username" /> 
+        
+        <label for="password">Password:</label> 
+        <input type="password" id="password" name="password" /> 
+        
+        <label for="folder">Folder:</label> 
+        <input type="text" id="folder" name="folder" value="Images" /> 
+        
+        <input type="submit" value="Save" id="submit" /> </form>
+      <div id="status"></div>
+   </body>
+</html>

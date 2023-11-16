@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Image Saver",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "contextMenus",
+      "storage",
+      "http://*/*",
+      "https://*/*",
+      "tabs"
+    ],
+    "background": {
+      "scripts": [
+         "background.js"
+      ]
+    },
+    "options_page": "options.html"
+ }
